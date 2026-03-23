@@ -1,0 +1,605 @@
+.skill{
+    background-color: rgb(234, 234, 249);
+}
+.progress-card{
+    padding: 12% 10% 10% 15%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10%;
+}
+.progress-card:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.6s;
+}
+.circular-progress{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.html-progress{
+    color: #fca61f;
+}
+.javascript-progress{
+    color: #6f34fe;
+}
+.c-language {
+    background: conic-gradient(#20c997 0deg, #ededed 0deg);
+}
+.c-language-progress {
+    color: #20c997;
+}
+
+.cpp {
+    background: conic-gradient(#3f396d 0deg, #ededed 0deg);
+}
+.cpp-progress {
+    color: #3f396d;
+}
+.text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.heading p{
+    font-size: 1.3rem;
+}
+
+/* portfolio section starts */
+#myBtnContainer{
+    margin-bottom: 45px;
+}
+#myBtnContainer button{
+  border: none;
+  color: black;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;   
+  display: inline-block;
+  margin: 0 25px;
+}
+#myBtnContainer button:hover{
+    color: #fca61f;
+}
+
+#myBtnContainer button:focus{
+    outline: none;
+}
+.post .content h4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.post .card{
+    border: none;
+}
+
+/* testimonial section starts */
+.testimonial img:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+.testimonial h4{
+    color: #3f396d;
+}
+.testimonial i{
+    font-size: 2.9rem;
+    color: #fca61f;
+
+}
+.testimonial .nextprev-btn{
+    border: none;
+    background-color: #fff;
+}
+.prev:hover,.prev-btn:hover{
+    color:#6f34fe;
+    transform: translateX(-10px);
+    transition-duration: 1s;
+}
+.next:hover,.next-btn:hover{
+    color:#6f34fe;
+    transform: translateX(10px);
+    transition-duration: 1s;
+}
+
+/* blog section starts */
+.blog{
+    background-color: #f2f2ff;
+}
+.blog .blogpost .card{
+    border: none;
+    border-radius: 5%;
+}
+.nav-bg{
+    background-color: #fff;
+}
+
+.blog .blogpost small{
+    color: #6f34fe;
+    font-size: 1.1rem;
+}
+.blog .blogpost h4,.blogpost a{
+    color: #3f396d;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.blogpost a:hover{
+    color: #fca61f;
+}
+.blog .blogpost .read-more-btn{
+    text-decoration: none;
+    color: #fca61f;
+    font-size: 1.1rem;
+}
+.blog .blogpost .read-more-btn:hover{
+    color: #6f34fe;
+}
+/* styling modal group  */
+.btn-c{
+    margin-left: 94%;
+    background-color: transparent;
+    border: none;
+    color: #e4dfdf;
+    font-size: 2rem;
+    margin-top: -3%;
+}
+.btn-c i{
+    color: #fca61f;
+}
+.modal-body .content span{
+    font-size: 1rem;
+}
+.modal-body .content small{
+    font-size: 1rem;
+    color: #6f34fe;
+}
+/* contact section starts */
+.contact{
+    background-color: #15080839;
+}
+.contact-details i{
+    font-size: 1.5rem;
+    color: #2e1ffc;
+}
+.contact-details p{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.contact-form .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #1ffc70;
+}
+.contact-form .form-control{
+    padding: 10px 10px;
+    width: 80%;
+}
+
+/* footer section starts */
+footer{
+    background-color: #211e39;
+}
+
+footer .link-group a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+footer .link-group a:hover{
+    color: #fca61f;
+}
+.social-links button{
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 14px 15px 10px 15px;
+}
+.social-links .dribble{
+    color: #f33a7e;
+}
+.social-links button:hover{
+    color: #fff;
+    transform: translateY(-20px);
+    transition-duration: 1s;
+}
+.social-links .dribble:hover{
+    background-color: #f33a7e;
+}
+.social-links .whatsapp{
+    color: #25D366;
+}
+.social-links .whatsapp:hover{
+    background-color: #25D366;
+}
+.social-links .behance{
+    color: #255afc;
+}
+.social-links .behance:hover{
+    background-color: #255afc;
+}
+
+/* styling back to top button */
+.hexagon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.hexagon {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: #222;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image stays static (no movement at all) */
+.hexagon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: static;
+}
+
+/* Blog Section */
+.blog {
+    background: #111; /* Dark background */
+    color: #fff; /* White text */
+  }
+  
+  .blog .heading small {
+    color: #0ff; /* Neon cyan */
+  }
+  
+  .blog h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0ff; /* Neon blue */
+  }
+  
+  .blogpost .card {
+    background: #222; /* Dark card background */
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  }
+  
+  .blogpost .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  }
+  
+  .blogpost .card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .blogpost .card-body {
+    padding: 20px;
+  }
+  
+  .blogpost .card-body small {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .blogpost .card-body h4 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #0ff; /* Neon effect */
+  }
+  
+  .blogpost .card-body p {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .blogpost .card-body strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ffcc00; /* Gold color for skills */
+  }
+  /* General Styles */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    position: fixed;
+    width: 220px;
+    height: 100vh;
+    background: #181818;
+    padding: 20px;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00ffff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: rgb(195, 30, 30);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    background: #00ffff;
+    border-radius: 5px;
+}
+
+/* Home Section */
+.home {
+    margin-left: 240px;
+    padding: 80px 40px;
+}
+
+.highlight {
+    color: #00ffff;
+}
+
+.typing {
+    font-weight: bold;
+    color: #00ffff;
+}
+
+
+
+.hexagon img {
+    width: 100%;
+    height: 100%;
+    clip-path: inherit;
+}
+
+/* Theme Switcher */
+.theme-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.theme-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blue { background: #00ffff; }
+.orange { background: #ff6700; }
+.green { background: #00ff00; }
+.pink { background: #ff00ff};
+/* Contact Section Styling */
+.nikita{
+    background-color: #111;
+    color: #ddd;
+}
+/* Hire Me Button */
+/* Hire Me Button */
+.c-btn {
+    background: linear-gradient(135deg, #2611c0, #3f396d);
+    color: #ffffff;
+    border: none;
+    padding: 200px 100px;   /* rectangle shape ke liye */
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 7px;   /* slight rounded rectangle */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 400px 400px 400px rgba(38, 17, 192, 0.4);
+}
+
+.c-btn:hover {
+    background: linear-gradient(135deg, #3f396d, #2611c0);
+    transform: translateY(-2px);
+    box-shadow: 0px 100px 100 px rgba(38, 17, 192, 0.6);
+}
+
+/* See My Work Link */
+.link {
+    color: #ff6b6b;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: #ff4c4c;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .c-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .link {
+        font-size: 0.9rem;
+    }
+}
+/* Hide contact form container initially */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Button */
+#contact-btn {
+    margin-top: 50px;
+    padding: 12px 25px;
+    background: rgb(255, 119, 0);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hidden */
+.hidden {
+    display: none;
+}
+
+/* Contact Section */
+#contact {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.3);
+}
+
+/* Contact Info */
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Form */
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: cyan;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Success Message */
+.success-message {
+    color: lightgreen;
+    font-weight: bold;
+}
+/* Background Overlay */
+/* Background Overlay */
+
+/* Popup Animation */
+@keyframes popup{
+    from{
+        transform:scale(0.8);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+/* Close Button */
+#close-btn{
+    position:absolute;
+    top:10px;
+    right:15px;
+    font-size:26px;
+    color:#fff;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#close-btn:hover{
+    color:#fca61f;
+}
+
+/* Input Fields */
+.whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.instagram {
+    background: #E1306C;
+    color: white;
+}
+
+.linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+.rounded-pill {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.rounded-pill:hover {
+    transform: scale(1.1);
+}
