@@ -86,22 +86,31 @@
     line-height: 1.8;
 }
 
+.home .row {
+    row-gap: 0;
+}
+
 .hexagon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: -20px;
+}
+
+.hero-subtitle {
+    margin-bottom: 4px;
+}
+
+.text-muted {
+    margin-bottom: 4px !important;
 }
 
 @media (max-width: 768px) {
-    .home .col-12,
-    .skill .col-12 {
-        text-align: center !important;
+    .home .row {
+        row-gap: 0;
     }
 
     .hexagon-container {
-        margin-top: 20px;
-        justify-content: center;
+        margin-top: -10px;
     }
+}
 
     .progress-card {
         margin: 0 auto;
@@ -115,7 +124,7 @@
     .link {
         margin-left: 0 !important;
     }
-}
+
 /* portfolio section starts */
 #myBtnContainer{
     margin-bottom: 45px;
