@@ -244,8 +244,9 @@ footer .link-group a:hover{
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
 }
 
 .hexagon {
@@ -260,12 +261,20 @@ footer .link-group a:hover{
     align-items: center;
 }
 
-/* Image stays static (no movement at all) */
 .hexagon img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: static;
+    display: block;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .hexagon-container {
+        width: 180px;
+        height: 180px;
+        margin-top: 20px;
+    }
 }
 
 /* Blog Section */

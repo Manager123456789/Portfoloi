@@ -16,6 +16,16 @@ let progressHtml = setInterval(() => {
     clearInterval(progressHtml);
   }
 }, htmlspeed);
+let roles = ["Web Developer", "Programmer", "Full Stack Developer", "Creative Coder"];
+let index = 0;
+
+function changeText() {
+    document.getElementById("changing-text").innerText = roles[index];
+    index = (index + 1) % roles.length;
+}
+
+changeText();
+setInterval(changeText, 1000);
 
 // JavaScript progress circular bar
 let javascriptProgress = document.querySelector(".javascript"),
